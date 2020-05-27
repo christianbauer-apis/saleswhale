@@ -1,0 +1,170 @@
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+
+li.nav {
+float:left;
+
+}
+
+li a {
+  display: block;
+  color: black;
+  font-size: 17px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+.flex-container {
+  display: flex;
+  text-align-last: center;
+  flex-wrap: wrap;
+justify-content: center
+}
+
+h1{
+text-align: center;
+}
+
+p{
+text-align: center;
+}
+
+/*
+.progress {
+    list-style:  none;
+    padding-left: 100px;
+    background-color: blue;
+    height: 1000px;
+}
+.progress li {
+    position: relative;
+    padding-left: 20px;
+}
+.progress li:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-image: url('images/envelopes.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ol.progress {
+list-style-image: url('images/envelopes.png');
+width:10px;
+height: 1000px;
+padding: 30px;
+}
+*/
+
+picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+button.team_button{
+  background-color:blue;
+  text-align-last: center;
+  color:white;
+  float: center;
+  border: none;
+  border-radius: 10px;
+}
+
+
+
+div.future{
+  background-color: DodgerBlue;
+  color: white;
+}
+h1.future{
+  color: white;
+}
+button.log_in{
+  background-color: transparent;
+  border-radius: 10px;
+  color: blue;
+}
+
+button.nav_demo{
+  text-align-last: center;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+}
+
+button.Demo{
+text-align-last: center;
+background-color: white;
+color: black;
+border-radius: 10px;
+}
+
+button.use_case{
+  color: white;
+  background-color: transparent;
+border-radius: 10px;
+}
+
+.flex-container > div {
+  width: 350px;
+  margin: 40px;
+  text-align: left;
+  align-items: center;
+  line-height: 40px;
+//  font-size: 30px;
+}
+
+div.footer{
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+ul.foot {
+  list-style: none;
+
+  margin: 0;
+  padding: 60px;
+  overflow: hidden;
+  background-color: white;
+}
+
+
+@media (max-width: 700px) {
+  ul.foot{
+flex-direction: column-reverse;
+}
+
+}
+
+
+@media (max-width: 1600px) {
+  li.nav{
+    display:none;
+    visibility: hidden;
+  }
+  li.img{
+    visibility:visible;
+  }
+
+}
