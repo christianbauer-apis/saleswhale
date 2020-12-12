@@ -1,5 +1,5 @@
 # saleswhale
- 
+
 Basic responsive website page.
 
-Links are inactive because going away from page will not bring you back.
+design is from https://www.figma.com/file/cbxLQKxUoLBVnQzCjA6NOF/Junior-Web-Developer-Test?node-id=2665%3A0
