@@ -2,11 +2,16 @@
 ul.nav {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  scroll-behavior: smooth;
   overflow: hidden;
-  background-color: white;
+  background-color: transparent;
 }
 
+ul.nav li.nav a:hover{
+background-color: transparent;
+
+}
 
 li.nav {
 float:left;
@@ -20,11 +25,13 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  background-color: transparent;
 }
 
 
 li a:hover {
-  background-color: #111;
+  background-color: transparent;
+
 }
 
 .flex-container {
@@ -88,7 +95,11 @@ button.team_button{
   color:white;
   float: center;
   border: none;
+  width: 160px;
+  height: 50px;
+  font-weight: bold;
   border-radius: 10px;
+  font-size: 20px;
 }
 
 
@@ -103,6 +114,11 @@ h1.future{
 button.log_in{
   background-color: transparent;
   border-radius: 10px;
+  border-color: blue;
+width: 160px;
+height: 50px;
+font-weight: bold;
+    font-size: 20px;
   color: blue;
 }
 
@@ -110,6 +126,10 @@ button.nav_demo{
   text-align-last: center;
   background-color: blue;
   border-radius: 10px;
+width: 160px;
+height: 50px;
+font-weight: bold;
+    font-size: 20px;
   color: white;
 }
 
@@ -117,12 +137,23 @@ button.Demo{
 text-align-last: center;
 background-color: white;
 color: black;
+width: 200px;
+height: 50px;
+font-weight: bold;
+  font-size: 20px;
+  border-color: transparent;
 border-radius: 10px;
 }
 
 button.use_case{
   color: white;
+width: 200px;
+height: 50px;
+font-weight: bold;
+border-color: white;
+border-width: medium;
   background-color: transparent;
+    font-size: 20px;
 border-radius: 10px;
 }
 
@@ -130,6 +161,7 @@ border-radius: 10px;
   width: 350px;
   margin: 40px;
   text-align: left;
+
   align-items: center;
   line-height: 40px;
 //  font-size: 30px;
